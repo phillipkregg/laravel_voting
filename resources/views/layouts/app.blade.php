@@ -56,6 +56,29 @@
         </div>
 
     </header>
+
+    <main class="container flex mx-auto max-w-custom" >
+        <div class="mr-5 w-70">
+            Add Idea form goes here
+        </div>
+
+        <div class="w-175">
+            <nav class="flex items-center justify-between text-xs">
+                <ul class="flex pb-3 space-x-10 font-semibold uppercase border-b-4">
+                    <li><a href="#" class="pb-3 border-b-4 border-blue">All Ideas (87)</a></li>
+                    <li><a href="#" class="pb-3 text-gray-400 transition duration-150 ease-in border-b-4 hover:border-blue">Considering (6)</a></li>
+                    <li><a href="#" class="pb-3 text-gray-400 transition duration-150 ease-in border-b-4 hover:border-blue">In Progress (1)</a></li>
+                </ul>
+
+                <ul class="flex pb-3 space-x-10 font-semibold uppercase border-b-4">
+                    <li><a href="#" class="pb-3 text-gray-400 transition duration-150 ease-in border-b-4 hover:border-blue">Implemented (10)</a></li>
+                    <li><a href="#" class="pb-3 text-gray-400 transition duration-150 ease-in border-b-4 hover:border-blue">Closed (55)</a></li>
+                </ul>
+            </nav>
+
+
+        </div>
+    </main>
 </body>
 
 </html>
